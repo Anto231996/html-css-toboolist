@@ -9,18 +9,18 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-nav{
+nav, main{
     width: 1000px;  
     background-color: white;
     margin:auto;
+}
+
+nav{
     margin-top: 100px;
     border-radius: 10px 10px 0 0 ;
 }
 
 main{
-    width: 1000px;  
-    background-color: white;
-    margin:auto;
     height: 1000px;
     margin-top: 4px;
     border-radius: 0 0 10px 10px;
@@ -32,7 +32,7 @@ h3{
 }
 
 .intestazione{
- background-color: white;
+    background-color: white;
 }
 
 #text-toboolist{
@@ -44,13 +44,6 @@ h3{
 .logo-text{
     padding: 10px;
 }
-
-#tools{
-    padding: 20px ;
-    margin-left: 50px;
-}
-
-
 
 #menu{
     font-size: 20px;
@@ -71,24 +64,10 @@ ul{
     margin-left: 50px;
 }
 
-#add-task{
-    background-color: rgb(0, 162, 255);
-    border-radius: 5px;
-    padding: 7px;
-    color: white;
-}
-
-#add-section{
-    border: solid black 1px;
-    padding: 7px ;
-    border-radius: 5px ;
-    color: lightgray ;
-}
-
 .button{
     font-size: 12px;
     background-color: rgb(0, 162, 255);
-    padding: 10px;
+    padding: 13px;
     color: white;
     border-radius: 20px;
     margin-left: 10px;
@@ -134,4 +113,19 @@ ul{
 
 #lime{
     background-color: rgb(107, 238, 0);
+}
+
+.add-task, .add-section{
+    padding: 7px ;
+    border-radius: 5px ;
+}
+
+.add-task{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+.add-section{
+    border: solid black 1px;
+    color: lightgray ;
 }
