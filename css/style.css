@@ -18,6 +18,7 @@ nav, main{
 nav{
     margin-top: 100px;
     border-radius: 10px 10px 0 0 ;
+    height: 60px;
 }
 
 main{
@@ -59,7 +60,7 @@ ul{
     margin-bottom: 30px;
 }
 
-#tools{
+#add{
     padding: 20px ;
     margin-left: 50px;
 }
@@ -116,7 +117,7 @@ ul{
 }
 
 .add-task, .add-section{
-    padding: 7px ;
+    padding: 10px ;
     border-radius: 5px ;
 }
 
