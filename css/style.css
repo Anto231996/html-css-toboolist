@@ -17,6 +17,20 @@ nav{
     border-radius: 10px 10px 0 0 ;
 }
 
+main{
+    width: 1000px;  
+    background-color: white;
+    margin:auto;
+    height: 1000px;
+    margin-top: 4px;
+    border-radius: 0 0 10px 10px;
+}
+
+h3{
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
 .intestazione{
  background-color: white;
 }
@@ -24,6 +38,7 @@ nav{
 #text-toboolist{
     font-size: 50px;
     vertical-align: text-bottom;
+    font-family: fantasy;
 }
 
 .logo-text{
@@ -35,18 +50,11 @@ nav{
     margin-left: 50px;
 }
 
-main{
-    width: 1000px;  
-    background-color: white;
-    margin:auto;
-    height: 1100px;
-    margin-top: 4px;
-    border-radius: 0 0 10px 10px;
-}
+
 
 #menu{
     font-size: 20px;
-    line-height: 3.5;
+    line-height: 3;
     padding: 80px;
 }
 
@@ -77,10 +85,53 @@ ul{
     color: lightgray ;
 }
 
-.editorial{
+.button{
     font-size: 12px;
     background-color: rgb(0, 162, 255);
     padding: 10px;
     color: white;
     border-radius: 20px;
+    margin-left: 10px;
+}
+
+.check, .cross{
+    border-radius: 50%;
+    padding: 7px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cross{
+    border: 1px solid red;
+    color: red;
+}
+
+.check{
+    border: 1px solid green;
+    color: green;
+}
+
+.code{
+    margin-right: 13px;
+}
+
+#violet{
+    background-color: rgb(174, 0, 255);
+}
+
+#green{
+    background-color: green;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#pink{
+    background-color: plum;
+}
+
+#lime{
+    background-color: rgb(107, 238, 0);
 }
